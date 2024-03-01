@@ -6,6 +6,7 @@
   --azul-claro: #feffff;
   --branco: #5f6880;
   --cinza-escuro: #b2bfcc;
+  --verde: #36a13d;
 }
 
 
@@ -43,7 +44,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #e03a3c;
+  background: var(--verde);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -57,7 +58,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #e65d5f;
+  background: var(--cinza-escuro);
   color: #fff;
 }
 
@@ -374,7 +375,6 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -467,7 +467,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #e03a3c;
+  background: var(--verde);
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -651,6 +651,12 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.services .icon-box i {
+
+  color: #000000;
+}
+
 .services .icon-box {
   margin-bottom: 20px;
   padding: 30px;
@@ -665,17 +671,16 @@ section {
   font-weight: 600;
 }
 
-.services .icon-box i {
+.services .icon-box img {
   float: left;
   color: #e03a3c;
-  font-size: 40px;
   line-height: 0;
 }
 
 .services .icon-box h4 {
+  margin-top: 10px;
   margin-left: 70px;
   font-weight: 700;
-  margin-bottom: 15px;
   font-size: 18px;
 }
 
