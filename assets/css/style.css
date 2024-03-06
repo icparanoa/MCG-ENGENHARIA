@@ -666,11 +666,6 @@ section {
   position: relative;
 }
 
-.services .icon-box p {
-  color: #111111;
-  font-weight: 600;
-}
-
 .services .icon-box img {
   float: left;
   color: #e03a3c;
@@ -707,10 +702,10 @@ section {
 }
 
 .services .icon-box p {
+  color: #000000;
   margin-left: 70px;
   line-height: 24px;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 14px;
 }
 
 .services .icon-box span {
@@ -866,7 +861,7 @@ section {
   color: #fff;
   font-size: 14px;
   text-align: center;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
 #footer img {
@@ -889,31 +884,6 @@ section {
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
-}
-
-#footer .social-links {
-  margin: 0 0 40px 0;
-}
-
-#footer .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: var(--branco);
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .social-links a:hover {
-  background: #133447;
-  color: #fff;
-  text-decoration: none;
 }
 
 #footer .copyright {
