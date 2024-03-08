@@ -396,7 +396,20 @@ h6 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #fff;
+  color: #000000;
+}
+
+#hero span{
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--azul-escuro);
+}
+
+#hero .container{
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 30px #000;
 }
 
 #hero h2 {
@@ -404,6 +417,7 @@ h6 {
   margin: 10px 0 0 0;
   font-size: 24px;
 }
+
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
